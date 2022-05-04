@@ -1,0 +1,251 @@
+[0.381s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.382s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f281f05d220>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f281f05d220>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f281f05d760>)
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.395s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.395s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.395s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.395s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nicola/colcon_ws'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_NavSLAM) by extensions ['ignore', 'ignore_ament_install']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_NavSLAM) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_NavSLAM) by extension 'ignore_ament_install'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_NavSLAM) by extensions ['colcon_pkg']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_NavSLAM) by extension 'colcon_pkg'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_NavSLAM) by extensions ['colcon_meta']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_NavSLAM) by extension 'colcon_meta'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_NavSLAM) by extensions ['ros']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_NavSLAM) by extension 'ros'
+[0.438s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_NavSLAM' with type 'ros.ament_python' and name 'turtlebot3_NavSLAM'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_description) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_description) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_description) by extension 'ignore_ament_install'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_description) by extensions ['colcon_pkg']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_description) by extension 'colcon_pkg'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_description) by extensions ['colcon_meta']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_description) by extension 'colcon_meta'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_description) by extensions ['ros']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_description) by extension 'ros'
+[0.441s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_description' with type 'ros.ament_cmake' and name 'turtlebot3_description'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_visualizer) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_visualizer) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_visualizer) by extension 'ignore_ament_install'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_visualizer) by extensions ['colcon_pkg']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_visualizer) by extension 'colcon_pkg'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_visualizer) by extensions ['colcon_meta']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_visualizer) by extension 'colcon_meta'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_visualizer) by extensions ['ros']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_visualizer) by extension 'ros'
+[0.443s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_visualizer' with type 'ros.ament_python' and name 'turtlebot3_visualizer'
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_NavSLAM' build argument 'cmake_args' from command line to 'None'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_NavSLAM' build argument 'cmake_target' from command line to 'None'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_NavSLAM' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_NavSLAM' build argument 'cmake_clean_cache' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_NavSLAM' build argument 'cmake_clean_first' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_NavSLAM' build argument 'cmake_force_configure' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_NavSLAM' build argument 'ament_cmake_args' from command line to 'None'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_NavSLAM' build argument 'catkin_cmake_args' from command line to 'None'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_NavSLAM' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.494s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_NavSLAM' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nicola/colcon_ws/build/turtlebot3_NavSLAM', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nicola/colcon_ws/install/turtlebot3_NavSLAM', 'merge_install': False, 'path': '/home/nicola/colcon_ws/src/turtlebot3_NavSLAM', 'symlink_install': False, 'test_result_base': None}
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_args' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_target' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.497s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nicola/colcon_ws/build/turtlebot3_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nicola/colcon_ws/install/turtlebot3_description', 'merge_install': False, 'path': '/home/nicola/colcon_ws/src/turtlebot3_description', 'symlink_install': False, 'test_result_base': None}
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_visualizer' build argument 'cmake_args' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_visualizer' build argument 'cmake_target' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_visualizer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_visualizer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_visualizer' build argument 'cmake_clean_first' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_visualizer' build argument 'cmake_force_configure' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_visualizer' build argument 'ament_cmake_args' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_visualizer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_visualizer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.500s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_visualizer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nicola/colcon_ws/build/turtlebot3_visualizer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nicola/colcon_ws/install/turtlebot3_visualizer', 'merge_install': False, 'path': '/home/nicola/colcon_ws/src/turtlebot3_visualizer', 'symlink_install': False, 'test_result_base': None}
+[0.503s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/nicola/colcon_ws/src/ROS2Package/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.503s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nicola/colcon_ws/src/ROS2Package/install/turtlebot3_visualizer' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.503s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nicola/colcon_ws/src/ROS2Package/install/turtlebot3_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.503s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nicola/colcon_ws/src/ROS2Package/install/turtlebot3_NavSLAM' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.503s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nicola/colcon_ws/install/turtlebot3_visualizer' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.504s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nicola/colcon_ws/install/turtlebot3_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.504s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nicola/colcon_ws/install/turtlebot3_NavSLAM' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.504s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nicola/colcon_ws/install/package1' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.504s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/nicola/colcon_ws/src/ROS2Package/install/turtlebot3_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.504s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/nicola/colcon_ws/install/turtlebot3_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.510s] WARNING:colcon.colcon_core.verb:Some selected packages are already built in one or more underlay workspaces:
+	'turtlebot3_description' is in: /opt/ros/foxy
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding turtlebot3_description
+
+This may be promoted to an error in a future release of colcon-core.
+[0.511s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.517s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.518s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nicola/colcon_ws/src/turtlebot3_NavSLAM' with build type 'ament_python'
+[0.518s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_NavSLAM', 'ament_prefix_path')
+[0.528s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicola/colcon_ws/install/turtlebot3_NavSLAM/share/turtlebot3_NavSLAM/hook/ament_prefix_path.ps1'
+[0.530s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicola/colcon_ws/install/turtlebot3_NavSLAM/share/turtlebot3_NavSLAM/hook/ament_prefix_path.dsv'
+[0.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicola/colcon_ws/install/turtlebot3_NavSLAM/share/turtlebot3_NavSLAM/hook/ament_prefix_path.sh'
+[0.535s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.535s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.548s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nicola/colcon_ws/src/turtlebot3_description' with build type 'ament_cmake'
+[0.549s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nicola/colcon_ws/src/turtlebot3_description'
+[0.551s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.552s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.564s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nicola/colcon_ws/src/turtlebot3_visualizer' with build type 'ament_python'
+[0.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_visualizer', 'ament_prefix_path')
+[0.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicola/colcon_ws/install/turtlebot3_visualizer/share/turtlebot3_visualizer/hook/ament_prefix_path.ps1'
+[0.571s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicola/colcon_ws/install/turtlebot3_visualizer/share/turtlebot3_visualizer/hook/ament_prefix_path.dsv'
+[0.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicola/colcon_ws/install/turtlebot3_visualizer/share/turtlebot3_visualizer/hook/ament_prefix_path.sh'
+[0.576s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.576s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.199s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nicola/colcon_ws/src/turtlebot3_NavSLAM'
+[1.203s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.203s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nicola/colcon_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nicola/colcon_ws/src/ROS2Package/install/turtlebot3_visualizer:/home/nicola/colcon_ws/src/ROS2Package/install/turtlebot3_NavSLAM:/home/nicola/colcon_ws/install/turtlebot3_visualizer:/home/nicola/colcon_ws/install/turtlebot3_NavSLAM:/home/nicola/colcon_ws/install/package1:/opt/ros/foxy /usr/bin/cmake /home/nicola/colcon_ws/src/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/nicola/colcon_ws/install/turtlebot3_description
+[1.865s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nicola/colcon_ws/src/turtlebot3_visualizer'
+[1.868s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.868s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nicola/colcon_ws/src/turtlebot3_visualizer': PYTHONPATH=/home/nicola/colcon_ws/install/turtlebot3_visualizer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot3_visualizer build --build-base /home/nicola/colcon_ws/build/turtlebot3_visualizer/build install --prefix /home/nicola/colcon_ws/install/turtlebot3_visualizer --record /home/nicola/colcon_ws/build/turtlebot3_visualizer/install.log --single-version-externally-managed
+[3.170s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nicola/colcon_ws/src/turtlebot3_NavSLAM': PYTHONPATH=/home/nicola/colcon_ws/install/turtlebot3_NavSLAM/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot3_NavSLAM build --build-base /home/nicola/colcon_ws/build/turtlebot3_NavSLAM/build install --prefix /home/nicola/colcon_ws/install/turtlebot3_NavSLAM --record /home/nicola/colcon_ws/build/turtlebot3_NavSLAM/install.log --single-version-externally-managed
+[4.349s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nicola/colcon_ws/src/turtlebot3_NavSLAM' returned '0': PYTHONPATH=/home/nicola/colcon_ws/install/turtlebot3_NavSLAM/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot3_NavSLAM build --build-base /home/nicola/colcon_ws/build/turtlebot3_NavSLAM/build install --prefix /home/nicola/colcon_ws/install/turtlebot3_NavSLAM --record /home/nicola/colcon_ws/build/turtlebot3_NavSLAM/install.log --single-version-externally-managed
+[4.360s] Level 1:colcon.colcon_core.environment:checking '/home/nicola/colcon_ws/install/turtlebot3_NavSLAM' for CMake module files
+[4.361s] Level 1:colcon.colcon_core.environment:checking '/home/nicola/colcon_ws/install/turtlebot3_NavSLAM' for CMake config files
+[4.363s] Level 1:colcon.colcon_core.environment:checking '/home/nicola/colcon_ws/install/turtlebot3_NavSLAM/lib'
+[4.364s] Level 1:colcon.colcon_core.environment:checking '/home/nicola/colcon_ws/install/turtlebot3_NavSLAM/bin'
+[4.364s] Level 1:colcon.colcon_core.environment:checking '/home/nicola/colcon_ws/install/turtlebot3_NavSLAM/lib/pkgconfig/turtlebot3_NavSLAM.pc'
+[4.364s] Level 1:colcon.colcon_core.environment:checking '/home/nicola/colcon_ws/install/turtlebot3_NavSLAM/lib/python3.8/site-packages'
+[4.364s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_NavSLAM', 'pythonpath')
+[4.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicola/colcon_ws/install/turtlebot3_NavSLAM/share/turtlebot3_NavSLAM/hook/pythonpath.ps1'
+[4.367s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicola/colcon_ws/install/turtlebot3_NavSLAM/share/turtlebot3_NavSLAM/hook/pythonpath.dsv'
+[4.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicola/colcon_ws/install/turtlebot3_NavSLAM/share/turtlebot3_NavSLAM/hook/pythonpath.sh'
+[4.369s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_NavSLAM)
+[4.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicola/colcon_ws/install/turtlebot3_NavSLAM/share/turtlebot3_NavSLAM/package.ps1'
+[4.372s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nicola/colcon_ws/install/turtlebot3_NavSLAM/share/turtlebot3_NavSLAM/package.dsv'
+[4.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicola/colcon_ws/install/turtlebot3_NavSLAM/share/turtlebot3_NavSLAM/package.sh'
+[4.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicola/colcon_ws/install/turtlebot3_NavSLAM/share/turtlebot3_NavSLAM/package.bash'
+[4.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicola/colcon_ws/install/turtlebot3_NavSLAM/share/turtlebot3_NavSLAM/package.zsh'
+[4.379s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nicola/colcon_ws/install/turtlebot3_NavSLAM/share/colcon-core/packages/turtlebot3_NavSLAM)
+[4.386s] Level 1:colcon.colcon_core.environment:checking '/home/nicola/colcon_ws/install/turtlebot3_visualizer' for CMake module files
+[4.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nicola/colcon_ws/src/turtlebot3_visualizer' returned '0': PYTHONPATH=/home/nicola/colcon_ws/install/turtlebot3_visualizer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot3_visualizer build --build-base /home/nicola/colcon_ws/build/turtlebot3_visualizer/build install --prefix /home/nicola/colcon_ws/install/turtlebot3_visualizer --record /home/nicola/colcon_ws/build/turtlebot3_visualizer/install.log --single-version-externally-managed
+[4.389s] Level 1:colcon.colcon_core.environment:checking '/home/nicola/colcon_ws/install/turtlebot3_visualizer' for CMake config files
+[4.391s] Level 1:colcon.colcon_core.environment:checking '/home/nicola/colcon_ws/install/turtlebot3_visualizer/lib'
+[4.391s] Level 1:colcon.colcon_core.environment:checking '/home/nicola/colcon_ws/install/turtlebot3_visualizer/bin'
+[4.391s] Level 1:colcon.colcon_core.environment:checking '/home/nicola/colcon_ws/install/turtlebot3_visualizer/lib/pkgconfig/turtlebot3_visualizer.pc'
+[4.391s] Level 1:colcon.colcon_core.environment:checking '/home/nicola/colcon_ws/install/turtlebot3_visualizer/lib/python3.8/site-packages'
+[4.392s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_visualizer', 'pythonpath')
+[4.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicola/colcon_ws/install/turtlebot3_visualizer/share/turtlebot3_visualizer/hook/pythonpath.ps1'
+[4.394s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicola/colcon_ws/install/turtlebot3_visualizer/share/turtlebot3_visualizer/hook/pythonpath.dsv'
+[4.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicola/colcon_ws/install/turtlebot3_visualizer/share/turtlebot3_visualizer/hook/pythonpath.sh'
+[4.397s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_visualizer)
+[4.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicola/colcon_ws/install/turtlebot3_visualizer/share/turtlebot3_visualizer/package.ps1'
+[4.401s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nicola/colcon_ws/install/turtlebot3_visualizer/share/turtlebot3_visualizer/package.dsv'
+[4.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicola/colcon_ws/install/turtlebot3_visualizer/share/turtlebot3_visualizer/package.sh'
+[4.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicola/colcon_ws/install/turtlebot3_visualizer/share/turtlebot3_visualizer/package.bash'
+[4.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicola/colcon_ws/install/turtlebot3_visualizer/share/turtlebot3_visualizer/package.zsh'
+[4.406s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nicola/colcon_ws/install/turtlebot3_visualizer/share/colcon-core/packages/turtlebot3_visualizer)
+[5.664s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nicola/colcon_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nicola/colcon_ws/src/ROS2Package/install/turtlebot3_visualizer:/home/nicola/colcon_ws/src/ROS2Package/install/turtlebot3_NavSLAM:/home/nicola/colcon_ws/install/turtlebot3_visualizer:/home/nicola/colcon_ws/install/turtlebot3_NavSLAM:/home/nicola/colcon_ws/install/package1:/opt/ros/foxy /usr/bin/cmake /home/nicola/colcon_ws/src/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/nicola/colcon_ws/install/turtlebot3_description
+[5.672s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nicola/colcon_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nicola/colcon_ws/src/ROS2Package/install/turtlebot3_visualizer:/home/nicola/colcon_ws/src/ROS2Package/install/turtlebot3_NavSLAM:/home/nicola/colcon_ws/install/turtlebot3_visualizer:/home/nicola/colcon_ws/install/turtlebot3_NavSLAM:/home/nicola/colcon_ws/install/package1:/opt/ros/foxy /usr/bin/cmake --build /home/nicola/colcon_ws/build/turtlebot3_description -- -j8 -l8
+[5.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nicola/colcon_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nicola/colcon_ws/src/ROS2Package/install/turtlebot3_visualizer:/home/nicola/colcon_ws/src/ROS2Package/install/turtlebot3_NavSLAM:/home/nicola/colcon_ws/install/turtlebot3_visualizer:/home/nicola/colcon_ws/install/turtlebot3_NavSLAM:/home/nicola/colcon_ws/install/package1:/opt/ros/foxy /usr/bin/cmake --build /home/nicola/colcon_ws/build/turtlebot3_description -- -j8 -l8
+[5.842s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nicola/colcon_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nicola/colcon_ws/src/ROS2Package/install/turtlebot3_visualizer:/home/nicola/colcon_ws/src/ROS2Package/install/turtlebot3_NavSLAM:/home/nicola/colcon_ws/install/turtlebot3_visualizer:/home/nicola/colcon_ws/install/turtlebot3_NavSLAM:/home/nicola/colcon_ws/install/package1:/opt/ros/foxy /usr/bin/cmake --install /home/nicola/colcon_ws/build/turtlebot3_description
+[6.414s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_description)
+[6.417s] Level 1:colcon.colcon_core.environment:checking '/home/nicola/colcon_ws/install/turtlebot3_description' for CMake module files
+[6.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nicola/colcon_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nicola/colcon_ws/src/ROS2Package/install/turtlebot3_visualizer:/home/nicola/colcon_ws/src/ROS2Package/install/turtlebot3_NavSLAM:/home/nicola/colcon_ws/install/turtlebot3_visualizer:/home/nicola/colcon_ws/install/turtlebot3_NavSLAM:/home/nicola/colcon_ws/install/package1:/opt/ros/foxy /usr/bin/cmake --install /home/nicola/colcon_ws/build/turtlebot3_description
+[6.420s] Level 1:colcon.colcon_core.environment:checking '/home/nicola/colcon_ws/install/turtlebot3_description' for CMake config files
+[6.421s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_description', 'cmake_prefix_path')
+[6.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicola/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.ps1'
+[6.423s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicola/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.dsv'
+[6.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicola/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.sh'
+[6.425s] Level 1:colcon.colcon_core.environment:checking '/home/nicola/colcon_ws/install/turtlebot3_description/bin'
+[6.426s] Level 1:colcon.colcon_core.environment:checking '/home/nicola/colcon_ws/install/turtlebot3_description/lib/pkgconfig/turtlebot3_description.pc'
+[6.426s] Level 1:colcon.colcon_core.environment:checking '/home/nicola/colcon_ws/install/turtlebot3_description/lib/python3.8/site-packages'
+[6.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicola/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/package.ps1'
+[6.428s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nicola/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/package.dsv'
+[6.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicola/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/package.sh'
+[6.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicola/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/package.bash'
+[6.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicola/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/package.zsh'
+[6.432s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nicola/colcon_ws/install/turtlebot3_description/share/colcon-core/packages/turtlebot3_description)
+[6.481s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_description)
+[6.483s] Level 1:colcon.colcon_core.environment:checking '/home/nicola/colcon_ws/install/turtlebot3_description' for CMake module files
+[6.485s] Level 1:colcon.colcon_core.environment:checking '/home/nicola/colcon_ws/install/turtlebot3_description' for CMake config files
+[6.486s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_description', 'cmake_prefix_path')
+[6.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicola/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.ps1'
+[6.488s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicola/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.dsv'
+[6.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicola/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.sh'
+[6.491s] Level 1:colcon.colcon_core.environment:checking '/home/nicola/colcon_ws/install/turtlebot3_description/bin'
+[6.491s] Level 1:colcon.colcon_core.environment:checking '/home/nicola/colcon_ws/install/turtlebot3_description/lib/pkgconfig/turtlebot3_description.pc'
+[6.492s] Level 1:colcon.colcon_core.environment:checking '/home/nicola/colcon_ws/install/turtlebot3_description/lib/python3.8/site-packages'
+[6.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicola/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/package.ps1'
+[6.494s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nicola/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/package.dsv'
+[6.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicola/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/package.sh'
+[6.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicola/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/package.bash'
+[6.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicola/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/package.zsh'
+[6.499s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nicola/colcon_ws/install/turtlebot3_description/share/colcon-core/packages/turtlebot3_description)
+[6.500s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.500s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.500s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.500s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.531s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.531s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.532s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.571s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.572s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nicola/colcon_ws/install/local_setup.ps1'
+[6.575s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nicola/colcon_ws/install/_local_setup_util_ps1.py'
+[6.578s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nicola/colcon_ws/install/setup.ps1'
+[6.581s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nicola/colcon_ws/install/local_setup.sh'
+[6.583s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nicola/colcon_ws/install/_local_setup_util_sh.py'
+[6.584s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nicola/colcon_ws/install/setup.sh'
+[6.588s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nicola/colcon_ws/install/local_setup.bash'
+[6.589s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nicola/colcon_ws/install/setup.bash'
+[6.591s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nicola/colcon_ws/install/local_setup.zsh'
+[6.593s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nicola/colcon_ws/install/setup.zsh'

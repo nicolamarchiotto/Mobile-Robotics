@@ -1,0 +1,45 @@
+running egg_info
+creating ../../build/turtlebot3_NavSLAM/turtlebot3_NavSLAM.egg-info
+writing ../../build/turtlebot3_NavSLAM/turtlebot3_NavSLAM.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtlebot3_NavSLAM/turtlebot3_NavSLAM.egg-info/dependency_links.txt
+writing entry points to ../../build/turtlebot3_NavSLAM/turtlebot3_NavSLAM.egg-info/entry_points.txt
+writing requirements to ../../build/turtlebot3_NavSLAM/turtlebot3_NavSLAM.egg-info/requires.txt
+writing top-level names to ../../build/turtlebot3_NavSLAM/turtlebot3_NavSLAM.egg-info/top_level.txt
+writing manifest file '../../build/turtlebot3_NavSLAM/turtlebot3_NavSLAM.egg-info/SOURCES.txt'
+reading manifest file '../../build/turtlebot3_NavSLAM/turtlebot3_NavSLAM.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtlebot3_NavSLAM/turtlebot3_NavSLAM.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nicola/colcon_ws/build/turtlebot3_NavSLAM/build
+creating /home/nicola/colcon_ws/build/turtlebot3_NavSLAM/build/lib
+creating /home/nicola/colcon_ws/build/turtlebot3_NavSLAM/build/lib/turtlebot3_NavSLAM
+copying turtlebot3_NavSLAM/__init__.py -> /home/nicola/colcon_ws/build/turtlebot3_NavSLAM/build/lib/turtlebot3_NavSLAM
+running install
+running install_lib
+creating /home/nicola/colcon_ws/install/turtlebot3_NavSLAM/lib/python3.8/site-packages/turtlebot3_NavSLAM
+copying /home/nicola/colcon_ws/build/turtlebot3_NavSLAM/build/lib/turtlebot3_NavSLAM/__init__.py -> /home/nicola/colcon_ws/install/turtlebot3_NavSLAM/lib/python3.8/site-packages/turtlebot3_NavSLAM
+byte-compiling /home/nicola/colcon_ws/install/turtlebot3_NavSLAM/lib/python3.8/site-packages/turtlebot3_NavSLAM/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/nicola/colcon_ws/install/turtlebot3_NavSLAM/share/ament_index
+creating /home/nicola/colcon_ws/install/turtlebot3_NavSLAM/share/ament_index/resource_index
+creating /home/nicola/colcon_ws/install/turtlebot3_NavSLAM/share/ament_index/resource_index/packages
+copying resource/turtlebot3_NavSLAM -> /home/nicola/colcon_ws/install/turtlebot3_NavSLAM/share/ament_index/resource_index/packages
+copying package.xml -> /home/nicola/colcon_ws/install/turtlebot3_NavSLAM/share/turtlebot3_NavSLAM
+creating /home/nicola/colcon_ws/install/turtlebot3_NavSLAM/share/turtlebot3_NavSLAM/launch
+copying launch/turtlebot3_SLAM.launch.py -> /home/nicola/colcon_ws/install/turtlebot3_NavSLAM/share/turtlebot3_NavSLAM/launch
+copying launch/turtlebot3_AMCL.launch.py -> /home/nicola/colcon_ws/install/turtlebot3_NavSLAM/share/turtlebot3_NavSLAM/launch
+copying launch/turtlebot3_NAV2.launch.py -> /home/nicola/colcon_ws/install/turtlebot3_NavSLAM/share/turtlebot3_NavSLAM/launch
+creating /home/nicola/colcon_ws/install/turtlebot3_NavSLAM/share/turtlebot3_NavSLAM/config
+copying config/NAV2_param.yaml -> /home/nicola/colcon_ws/install/turtlebot3_NavSLAM/share/turtlebot3_NavSLAM/config
+copying config/SLAM_param.yaml -> /home/nicola/colcon_ws/install/turtlebot3_NavSLAM/share/turtlebot3_NavSLAM/config
+copying config/bt_config.xml -> /home/nicola/colcon_ws/install/turtlebot3_NavSLAM/share/turtlebot3_NavSLAM/config
+creating /home/nicola/colcon_ws/install/turtlebot3_NavSLAM/share/turtlebot3_NavSLAM/rviz
+creating /home/nicola/colcon_ws/install/turtlebot3_NavSLAM/share/turtlebot3_NavSLAM/map
+copying map/test.yaml -> /home/nicola/colcon_ws/install/turtlebot3_NavSLAM/share/turtlebot3_NavSLAM/map
+copying map/test.pgm -> /home/nicola/colcon_ws/install/turtlebot3_NavSLAM/share/turtlebot3_NavSLAM/map
+copying map/map.yaml -> /home/nicola/colcon_ws/install/turtlebot3_NavSLAM/share/turtlebot3_NavSLAM/map
+copying map/map.pgm -> /home/nicola/colcon_ws/install/turtlebot3_NavSLAM/share/turtlebot3_NavSLAM/map
+running install_egg_info
+Copying ../../build/turtlebot3_NavSLAM/turtlebot3_NavSLAM.egg-info to /home/nicola/colcon_ws/install/turtlebot3_NavSLAM/lib/python3.8/site-packages/turtlebot3_NavSLAM-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/nicola/colcon_ws/build/turtlebot3_NavSLAM/install.log'

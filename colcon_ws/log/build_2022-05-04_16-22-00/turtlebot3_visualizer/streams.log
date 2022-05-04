@@ -1,0 +1,39 @@
+[2.582s] Invoking command in '/home/nicola/colcon_ws/src/turtlebot3_visualizer': PYTHONPATH=/home/nicola/colcon_ws/install/turtlebot3_visualizer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot3_visualizer build --build-base /home/nicola/colcon_ws/build/turtlebot3_visualizer/build install --prefix /home/nicola/colcon_ws/install/turtlebot3_visualizer --record /home/nicola/colcon_ws/build/turtlebot3_visualizer/install.log --single-version-externally-managed
+[3.468s] running egg_info
+[3.470s] creating ../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info
+[3.470s] writing ../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info/PKG-INFO
+[3.471s] writing dependency_links to ../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info/dependency_links.txt
+[3.471s] writing entry points to ../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info/entry_points.txt
+[3.472s] writing requirements to ../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info/requires.txt
+[3.472s] writing top-level names to ../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info/top_level.txt
+[3.493s] writing manifest file '../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info/SOURCES.txt'
+[3.616s] reading manifest file '../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info/SOURCES.txt'
+[3.619s] writing manifest file '../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info/SOURCES.txt'
+[3.620s] running build
+[3.620s] running build_py
+[3.620s] creating /home/nicola/colcon_ws/build/turtlebot3_visualizer/build
+[3.620s] creating /home/nicola/colcon_ws/build/turtlebot3_visualizer/build/lib
+[3.621s] creating /home/nicola/colcon_ws/build/turtlebot3_visualizer/build/lib/turtlebot3_visualizer
+[3.621s] copying turtlebot3_visualizer/__init__.py -> /home/nicola/colcon_ws/build/turtlebot3_visualizer/build/lib/turtlebot3_visualizer
+[3.621s] running install
+[3.623s] running install_lib
+[3.627s] creating /home/nicola/colcon_ws/install/turtlebot3_visualizer/lib/python3.8/site-packages/turtlebot3_visualizer
+[3.627s] copying /home/nicola/colcon_ws/build/turtlebot3_visualizer/build/lib/turtlebot3_visualizer/__init__.py -> /home/nicola/colcon_ws/install/turtlebot3_visualizer/lib/python3.8/site-packages/turtlebot3_visualizer
+[3.629s] byte-compiling /home/nicola/colcon_ws/install/turtlebot3_visualizer/lib/python3.8/site-packages/turtlebot3_visualizer/__init__.py to __init__.cpython-38.pyc
+[3.633s] running install_data
+[3.635s] creating /home/nicola/colcon_ws/install/turtlebot3_visualizer/share/ament_index
+[3.635s] creating /home/nicola/colcon_ws/install/turtlebot3_visualizer/share/ament_index/resource_index
+[3.635s] creating /home/nicola/colcon_ws/install/turtlebot3_visualizer/share/ament_index/resource_index/packages
+[3.636s] copying resource/turtlebot3_visualizer -> /home/nicola/colcon_ws/install/turtlebot3_visualizer/share/ament_index/resource_index/packages
+[3.636s] copying package.xml -> /home/nicola/colcon_ws/install/turtlebot3_visualizer/share/turtlebot3_visualizer
+[3.637s] creating /home/nicola/colcon_ws/install/turtlebot3_visualizer/share/turtlebot3_visualizer/launch
+[3.637s] copying launch/turtlebot3_visualizer.launch.py -> /home/nicola/colcon_ws/install/turtlebot3_visualizer/share/turtlebot3_visualizer/launch
+[3.637s] creating /home/nicola/colcon_ws/install/turtlebot3_visualizer/share/turtlebot3_visualizer/rviz
+[3.638s] copying rviz/NAV2.rviz -> /home/nicola/colcon_ws/install/turtlebot3_visualizer/share/turtlebot3_visualizer/rviz
+[3.638s] copying rviz/AMCL.rviz -> /home/nicola/colcon_ws/install/turtlebot3_visualizer/share/turtlebot3_visualizer/rviz
+[3.638s] copying rviz/SLAM.rviz -> /home/nicola/colcon_ws/install/turtlebot3_visualizer/share/turtlebot3_visualizer/rviz
+[3.638s] running install_egg_info
+[3.644s] Copying ../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info to /home/nicola/colcon_ws/install/turtlebot3_visualizer/lib/python3.8/site-packages/turtlebot3_visualizer-0.0.0-py3.8.egg-info
+[3.648s] running install_scripts
+[3.710s] writing list of installed files to '/home/nicola/colcon_ws/build/turtlebot3_visualizer/install.log'
+[3.822s] Invoked command in '/home/nicola/colcon_ws/src/turtlebot3_visualizer' returned '0': PYTHONPATH=/home/nicola/colcon_ws/install/turtlebot3_visualizer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot3_visualizer build --build-base /home/nicola/colcon_ws/build/turtlebot3_visualizer/build install --prefix /home/nicola/colcon_ws/install/turtlebot3_visualizer --record /home/nicola/colcon_ws/build/turtlebot3_visualizer/install.log --single-version-externally-managed
