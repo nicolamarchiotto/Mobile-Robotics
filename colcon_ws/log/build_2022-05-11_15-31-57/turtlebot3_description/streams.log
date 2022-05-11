@@ -1,0 +1,146 @@
+[0.456s] Invoking command in '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_NavSLAM:/opt/ros/foxy /usr/bin/cmake /home/nicola/mobileRobotics/colcon_ws/src/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description
+[1.323s] -- The C compiler identification is GNU 9.4.0
+[1.949s] -- The CXX compiler identification is GNU 9.4.0
+[2.049s] -- Check for working C compiler: /usr/bin/cc
+[2.308s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.308s] -- Detecting C compiler ABI info
+[2.493s] -- Detecting C compiler ABI info - done
+[2.520s] -- Detecting C compile features
+[2.533s] -- Detecting C compile features - done
+[2.540s] -- Check for working CXX compiler: /usr/bin/c++
+[2.708s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.711s] -- Detecting CXX compiler ABI info
+[2.878s] -- Detecting CXX compiler ABI info - done
+[2.901s] -- Detecting CXX compile features
+[2.902s] -- Detecting CXX compile features - done
+[2.981s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.277s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.277s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.900s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[4.102s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.273s] -- Configuring done
+[4.280s] -- Generating done
+[4.283s] -- Build files have been written to: /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_description
+[4.294s] Invoked command in '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_NavSLAM:/opt/ros/foxy /usr/bin/cmake /home/nicola/mobileRobotics/colcon_ws/src/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description
+[4.298s] Invoking command in '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_NavSLAM:/opt/ros/foxy /usr/bin/cmake --build /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_description -- -j8 -l8
+[4.366s] Invoked command in '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_NavSLAM:/opt/ros/foxy /usr/bin/cmake --build /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_description -- -j8 -l8
+[4.421s] Invoking command in '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_NavSLAM:/opt/ros/foxy /usr/bin/cmake --install /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_description
+[4.435s] -- Install configuration: ""
+[4.435s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes
+[4.435s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases
+[4.435s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.stl
+[4.523s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base_2.asset.meta
+[4.532s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base_0.asset.meta
+[4.545s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base_5.asset.meta
+[4.546s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base_0.asset
+[4.610s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_7.asset
+[4.661s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base_4.asset
+[4.687s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.prefab
+[4.687s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base_4.asset.meta
+[4.688s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_14.asset
+[4.744s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.prefab
+[4.753s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.stl.meta
+[4.753s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_3.asset.meta
+[4.753s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_8.asset
+[4.808s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base_4.asset.meta
+[4.808s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base_3.asset.meta
+[4.809s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base_2.asset
+[4.867s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base_3.asset
+[4.922s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_4.asset.meta
+[4.923s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_8.asset.meta
+[4.923s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_9.asset
+[4.976s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.prefab.meta
+[4.976s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_2.asset.meta
+[4.976s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base_0.asset
+[5.029s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_6.asset.meta
+[5.029s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.prefab.meta
+[5.029s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_2.asset
+[5.093s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_10.asset
+[5.154s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base_1.asset.meta
+[5.154s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.stl
+[5.270s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_10.asset.meta
+[5.271s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_4.asset
+[5.331s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.stl
+[5.580s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_1.asset.meta
+[5.580s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_13.asset.meta
+[5.580s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_0.asset
+[5.637s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base_7.asset
+[5.663s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_6.asset
+[5.722s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base_7.asset.meta
+[5.723s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_3.asset
+[5.782s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_11.asset
+[5.841s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_9.asset.meta
+[5.842s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base_4.asset
+[6.011s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_13.asset
+[6.073s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_5.asset.meta
+[6.073s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base_6.asset
+[6.125s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base_3.asset
+[6.186s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.stl.meta
+[6.186s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base_3.asset.meta
+[6.193s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_11.asset.meta
+[6.194s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base_1.asset
+[6.249s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_7.asset.meta
+[6.250s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.prefab
+[6.250s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.prefab.meta
+[6.250s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_12.asset
+[6.311s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base_1.asset
+[6.364s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.stl.meta
+[6.365s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base_0.asset.meta
+[6.380s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_1.asset
+[6.444s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_14.asset.meta
+[6.445s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base_2.asset
+[6.502s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base_6.asset.meta
+[6.502s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_12.asset.meta
+[6.502s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base_1.asset.meta
+[6.502s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_5.asset
+[6.561s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base_5.asset
+[6.611s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base_2.asset.meta
+[6.612s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_0.asset.meta
+[6.612s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors
+[6.612s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds_0.asset
+[6.649s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.jpg.meta
+[6.650s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.jpg
+[6.661s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds_0.asset.meta
+[6.661s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.jpg.meta
+[6.662s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.prefab.meta
+[6.662s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.stl.meta
+[6.662s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.dae.meta
+[6.662s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.dae
+[6.807s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.prefab
+[6.808s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.dae.meta
+[6.808s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.dae
+[6.825s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.jpg
+[6.825s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.stl
+[6.849s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels
+[6.849s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire_0.asset.meta
+[6.850s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.stl
+[6.866s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.prefab
+[6.866s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.prefab.meta
+[6.866s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire_0.asset.meta
+[6.867s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire_0.asset
+[6.926s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.prefab
+[6.927s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.prefab.meta
+[6.927s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire_0.asset
+[6.981s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.stl
+[7.010s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.stl.meta
+[7.011s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.stl.meta
+[7.011s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/urdf
+[7.011s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger.urdf
+[7.012s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/common_properties.urdf
+[7.012s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description
+[7.013s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description
+[7.013s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh
+[7.013s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.dsv
+[7.013s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh
+[7.014s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.dsv
+[7.014s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash
+[7.014s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh
+[7.015s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh
+[7.015s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.dsv
+[7.015s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/package.dsv
+[7.016s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description
+[7.016s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.016s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake
+[7.017s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake
+[7.017s] -- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/package.xml
+[7.022s] Invoked command in '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_NavSLAM:/opt/ros/foxy /usr/bin/cmake --install /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_description

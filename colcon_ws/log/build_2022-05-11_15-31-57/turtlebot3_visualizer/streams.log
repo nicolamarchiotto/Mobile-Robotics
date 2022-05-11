@@ -1,0 +1,39 @@
+[2.219s] Invoking command in '/home/nicola/mobileRobotics/colcon_ws/src/turtlebot3_visualizer': PYTHONPATH=/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot3_visualizer build --build-base /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_visualizer/build install --prefix /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer --record /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_visualizer/install.log --single-version-externally-managed
+[2.915s] running egg_info
+[2.917s] creating ../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info
+[2.917s] writing ../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info/PKG-INFO
+[2.918s] writing dependency_links to ../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info/dependency_links.txt
+[2.918s] writing entry points to ../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info/entry_points.txt
+[2.918s] writing requirements to ../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info/requires.txt
+[2.919s] writing top-level names to ../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info/top_level.txt
+[2.921s] writing manifest file '../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info/SOURCES.txt'
+[2.984s] reading manifest file '../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info/SOURCES.txt'
+[2.985s] writing manifest file '../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info/SOURCES.txt'
+[2.985s] running build
+[2.986s] running build_py
+[2.986s] creating /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_visualizer/build
+[2.986s] creating /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_visualizer/build/lib
+[2.986s] creating /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_visualizer/build/lib/turtlebot3_visualizer
+[2.986s] copying turtlebot3_visualizer/__init__.py -> /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_visualizer/build/lib/turtlebot3_visualizer
+[2.986s] running install
+[2.987s] running install_lib
+[2.989s] creating /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer/lib/python3.8/site-packages/turtlebot3_visualizer
+[2.989s] copying /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_visualizer/build/lib/turtlebot3_visualizer/__init__.py -> /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer/lib/python3.8/site-packages/turtlebot3_visualizer
+[2.990s] byte-compiling /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer/lib/python3.8/site-packages/turtlebot3_visualizer/__init__.py to __init__.cpython-38.pyc
+[2.992s] running install_data
+[2.994s] creating /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer/share/ament_index
+[2.994s] creating /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer/share/ament_index/resource_index
+[2.994s] creating /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer/share/ament_index/resource_index/packages
+[2.994s] copying resource/turtlebot3_visualizer -> /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer/share/ament_index/resource_index/packages
+[2.994s] copying package.xml -> /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer/share/turtlebot3_visualizer
+[2.994s] creating /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer/share/turtlebot3_visualizer/launch
+[2.994s] copying launch/turtlebot3_visualizer.launch.py -> /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer/share/turtlebot3_visualizer/launch
+[3.041s] creating /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer/share/turtlebot3_visualizer/rviz
+[3.041s] copying rviz/NAV2.rviz -> /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer/share/turtlebot3_visualizer/rviz
+[3.078s] copying rviz/AMCL.rviz -> /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer/share/turtlebot3_visualizer/rviz
+[3.078s] copying rviz/SLAM.rviz -> /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer/share/turtlebot3_visualizer/rviz
+[3.079s] running install_egg_info
+[3.082s] Copying ../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info to /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer/lib/python3.8/site-packages/turtlebot3_visualizer-0.0.0-py3.8.egg-info
+[3.083s] running install_scripts
+[3.126s] writing list of installed files to '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_visualizer/install.log'
+[3.196s] Invoked command in '/home/nicola/mobileRobotics/colcon_ws/src/turtlebot3_visualizer' returned '0': PYTHONPATH=/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot3_visualizer build --build-base /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_visualizer/build install --prefix /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer --record /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_visualizer/install.log --single-version-externally-managed

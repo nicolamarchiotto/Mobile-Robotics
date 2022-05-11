@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/turtlebot3_follow/turtlebot3_follow.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtlebot3_follow/turtlebot3_follow.egg-info/dependency_links.txt
+writing entry points to ../../build/turtlebot3_follow/turtlebot3_follow.egg-info/entry_points.txt
+writing requirements to ../../build/turtlebot3_follow/turtlebot3_follow.egg-info/requires.txt
+writing top-level names to ../../build/turtlebot3_follow/turtlebot3_follow.egg-info/top_level.txt
+reading manifest file '../../build/turtlebot3_follow/turtlebot3_follow.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtlebot3_follow/turtlebot3_follow.egg-info/SOURCES.txt'
+running build
+running build_py
+copying turtlebot3_follow/follow.py -> /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_follow/build/lib/turtlebot3_follow
+running install
+running install_lib
+copying /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_follow/build/lib/turtlebot3_follow/follow.py -> /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_follow/lib/python3.8/site-packages/turtlebot3_follow
+byte-compiling /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_follow/lib/python3.8/site-packages/turtlebot3_follow/follow.py to follow.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_follow/lib/python3.8/site-packages/turtlebot3_follow-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/turtlebot3_follow/turtlebot3_follow.egg-info to /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_follow/lib/python3.8/site-packages/turtlebot3_follow-0.0.0-py3.8.egg-info
+running install_scripts
+Installing turtlebot3_follow script to /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_follow/lib/turtlebot3_follow
+writing list of installed files to '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_follow/install.log'
