@@ -1,0 +1,20 @@
+[12.655s] Invoking command in '/home/nicola/mobileRobotics/colcon_ws/src/turtlebot3_NavSLAM': PYTHONPATH=/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_NavSLAM/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot3_NavSLAM build --build-base /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_NavSLAM/build install --prefix /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_NavSLAM --record /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_NavSLAM/install.log --single-version-externally-managed
+[14.901s] running egg_info
+[14.905s] writing ../../build/turtlebot3_NavSLAM/turtlebot3_NavSLAM.egg-info/PKG-INFO
+[14.907s] writing dependency_links to ../../build/turtlebot3_NavSLAM/turtlebot3_NavSLAM.egg-info/dependency_links.txt
+[14.908s] writing entry points to ../../build/turtlebot3_NavSLAM/turtlebot3_NavSLAM.egg-info/entry_points.txt
+[14.909s] writing requirements to ../../build/turtlebot3_NavSLAM/turtlebot3_NavSLAM.egg-info/requires.txt
+[14.911s] writing top-level names to ../../build/turtlebot3_NavSLAM/turtlebot3_NavSLAM.egg-info/top_level.txt
+[15.196s] reading manifest file '../../build/turtlebot3_NavSLAM/turtlebot3_NavSLAM.egg-info/SOURCES.txt'
+[15.206s] writing manifest file '../../build/turtlebot3_NavSLAM/turtlebot3_NavSLAM.egg-info/SOURCES.txt'
+[15.206s] running build
+[15.207s] running build_py
+[15.208s] running install
+[15.215s] running install_lib
+[15.227s] running install_data
+[15.233s] running install_egg_info
+[15.248s] removing '/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_NavSLAM/lib/python3.8/site-packages/turtlebot3_NavSLAM-0.0.0-py3.8.egg-info' (and everything under it)
+[15.251s] Copying ../../build/turtlebot3_NavSLAM/turtlebot3_NavSLAM.egg-info to /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_NavSLAM/lib/python3.8/site-packages/turtlebot3_NavSLAM-0.0.0-py3.8.egg-info
+[15.259s] running install_scripts
+[15.429s] writing list of installed files to '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_NavSLAM/install.log'
+[15.568s] Invoked command in '/home/nicola/mobileRobotics/colcon_ws/src/turtlebot3_NavSLAM' returned '0': PYTHONPATH=/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_NavSLAM/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot3_NavSLAM build --build-base /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_NavSLAM/build install --prefix /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_NavSLAM --record /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_NavSLAM/install.log --single-version-externally-managed

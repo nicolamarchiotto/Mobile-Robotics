@@ -1,0 +1,3 @@
+[console_scripts]
+turtlebot3_HighLevelControl = turtlebot3_HighLevelControl.highLevelControl:main
+

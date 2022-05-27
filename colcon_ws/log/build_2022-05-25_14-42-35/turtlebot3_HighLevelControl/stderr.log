@@ -1,0 +1,5 @@
+  File "/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_HighLevelControl/lib/python3.8/site-packages/turtlebot3_HighLevelControl/highLevelControl.py", line 71
+    'front':  min(min(min(<ranges>, 10), min(min(<ranges>), 10)),
+                          ^
+SyntaxError: invalid syntax
+

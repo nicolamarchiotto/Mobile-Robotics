@@ -1,0 +1,27 @@
+[1.644s] Invoking command in '/home/nicola/mobileRobotics/colcon_ws/src/turtlebot3_HighLevelControl': PYTHONPATH=/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_HighLevelControl/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot3_HighLevelControl build --build-base /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_HighLevelControl/build install --prefix /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_HighLevelControl --record /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_HighLevelControl/install.log --single-version-externally-managed
+[1.891s] running egg_info
+[1.892s] writing ../../build/turtlebot3_HighLevelControl/turtlebot3_HighLevelControl.egg-info/PKG-INFO
+[1.892s] writing dependency_links to ../../build/turtlebot3_HighLevelControl/turtlebot3_HighLevelControl.egg-info/dependency_links.txt
+[1.893s] writing entry points to ../../build/turtlebot3_HighLevelControl/turtlebot3_HighLevelControl.egg-info/entry_points.txt
+[1.893s] writing requirements to ../../build/turtlebot3_HighLevelControl/turtlebot3_HighLevelControl.egg-info/requires.txt
+[1.893s] writing top-level names to ../../build/turtlebot3_HighLevelControl/turtlebot3_HighLevelControl.egg-info/top_level.txt
+[1.943s] reading manifest file '../../build/turtlebot3_HighLevelControl/turtlebot3_HighLevelControl.egg-info/SOURCES.txt'
+[1.945s] writing manifest file '../../build/turtlebot3_HighLevelControl/turtlebot3_HighLevelControl.egg-info/SOURCES.txt'
+[1.945s] running build
+[1.945s] running build_py
+[1.946s] running install
+[1.946s] running install_lib
+[1.948s] byte-compiling /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_HighLevelControl/lib/python3.8/site-packages/turtlebot3_HighLevelControl/highLevelControl.py to highLevelControl.cpython-38.pyc
+[1.949s]   File "/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_HighLevelControl/lib/python3.8/site-packages/turtlebot3_HighLevelControl/highLevelControl.py", line 71
+[1.949s]     'front':  min(min(min(<ranges>, 10), min(min(<ranges>), 10)),
+[1.950s]                           ^
+[1.950s] SyntaxError: invalid syntax
+[1.951s] 
+[1.951s] running install_data
+[1.951s] running install_egg_info
+[1.951s] removing '/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_HighLevelControl/lib/python3.8/site-packages/turtlebot3_HighLevelControl-0.0.0-py3.8.egg-info' (and everything under it)
+[1.952s] Copying ../../build/turtlebot3_HighLevelControl/turtlebot3_HighLevelControl.egg-info to /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_HighLevelControl/lib/python3.8/site-packages/turtlebot3_HighLevelControl-0.0.0-py3.8.egg-info
+[1.953s] running install_scripts
+[1.976s] Installing turtlebot3_HighLevelControl script to /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_HighLevelControl/lib/turtlebot3_HighLevelControl
+[1.977s] writing list of installed files to '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_HighLevelControl/install.log'
+[2.010s] Invoked command in '/home/nicola/mobileRobotics/colcon_ws/src/turtlebot3_HighLevelControl' returned '0': PYTHONPATH=/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_HighLevelControl/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot3_HighLevelControl build --build-base /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_HighLevelControl/build install --prefix /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_HighLevelControl --record /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_HighLevelControl/install.log --single-version-externally-managed

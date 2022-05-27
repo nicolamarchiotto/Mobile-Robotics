@@ -1,0 +1,20 @@
+[1.765s] Invoking command in '/home/nicola/mobileRobotics/colcon_ws/src/turtlebot3_visualizer': PYTHONPATH=/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot3_visualizer build --build-base /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_visualizer/build install --prefix /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer --record /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_visualizer/install.log --single-version-externally-managed
+[2.035s] running egg_info
+[2.036s] writing ../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info/PKG-INFO
+[2.037s] writing dependency_links to ../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info/dependency_links.txt
+[2.037s] writing entry points to ../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info/entry_points.txt
+[2.037s] writing requirements to ../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info/requires.txt
+[2.038s] writing top-level names to ../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info/top_level.txt
+[2.083s] reading manifest file '../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info/SOURCES.txt'
+[2.084s] writing manifest file '../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info/SOURCES.txt'
+[2.084s] running build
+[2.085s] running build_py
+[2.085s] running install
+[2.086s] running install_lib
+[2.088s] running install_data
+[2.089s] running install_egg_info
+[2.092s] removing '/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer/lib/python3.8/site-packages/turtlebot3_visualizer-0.0.0-py3.8.egg-info' (and everything under it)
+[2.092s] Copying ../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info to /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer/lib/python3.8/site-packages/turtlebot3_visualizer-0.0.0-py3.8.egg-info
+[2.093s] running install_scripts
+[2.119s] writing list of installed files to '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_visualizer/install.log'
+[2.157s] Invoked command in '/home/nicola/mobileRobotics/colcon_ws/src/turtlebot3_visualizer' returned '0': PYTHONPATH=/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot3_visualizer build --build-base /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_visualizer/build install --prefix /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer --record /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_visualizer/install.log --single-version-externally-managed

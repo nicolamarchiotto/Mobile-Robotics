@@ -1,0 +1,393 @@
+[0.000000] (-) TimerEvent: {}
+[0.005854] (turtlebot3_HighLevelControl) JobQueued: {'identifier': 'turtlebot3_HighLevelControl', 'dependencies': OrderedDict()}
+[0.008618] (turtlebot3_NavSLAM) JobQueued: {'identifier': 'turtlebot3_NavSLAM', 'dependencies': OrderedDict()}
+[0.009232] (turtlebot3_description) JobQueued: {'identifier': 'turtlebot3_description', 'dependencies': OrderedDict()}
+[0.009482] (turtlebot3_follow) JobQueued: {'identifier': 'turtlebot3_follow', 'dependencies': OrderedDict()}
+[0.009855] (turtlebot3_visualizer) JobQueued: {'identifier': 'turtlebot3_visualizer', 'dependencies': OrderedDict()}
+[0.010079] (turtlebot3_HighLevelControl) JobStarted: {'identifier': 'turtlebot3_HighLevelControl'}
+[0.097848] (-) TimerEvent: {}
+[0.123964] (turtlebot3_NavSLAM) JobStarted: {'identifier': 'turtlebot3_NavSLAM'}
+[0.190635] (turtlebot3_description) JobStarted: {'identifier': 'turtlebot3_description'}
+[0.198936] (-) TimerEvent: {}
+[0.244685] (turtlebot3_follow) JobStarted: {'identifier': 'turtlebot3_follow'}
+[0.301662] (-) TimerEvent: {}
+[0.308649] (turtlebot3_visualizer) JobStarted: {'identifier': 'turtlebot3_visualizer'}
+[0.407518] (-) TimerEvent: {}
+[0.510189] (-) TimerEvent: {}
+[0.612805] (-) TimerEvent: {}
+[0.713557] (-) TimerEvent: {}
+[0.814528] (-) TimerEvent: {}
+[0.915977] (-) TimerEvent: {}
+[1.017098] (-) TimerEvent: {}
+[1.118906] (-) TimerEvent: {}
+[1.220348] (-) TimerEvent: {}
+[1.322092] (-) TimerEvent: {}
+[1.423037] (-) TimerEvent: {}
+[1.524189] (-) TimerEvent: {}
+[1.625211] (-) TimerEvent: {}
+[1.726408] (-) TimerEvent: {}
+[1.827477] (-) TimerEvent: {}
+[1.928439] (-) TimerEvent: {}
+[2.029896] (-) TimerEvent: {}
+[2.131014] (-) TimerEvent: {}
+[2.232358] (-) TimerEvent: {}
+[2.333888] (-) TimerEvent: {}
+[2.435751] (-) TimerEvent: {}
+[2.538864] (-) TimerEvent: {}
+[2.642565] (-) TimerEvent: {}
+[2.743998] (-) TimerEvent: {}
+[2.845506] (-) TimerEvent: {}
+[2.947239] (-) TimerEvent: {}
+[3.049217] (-) TimerEvent: {}
+[3.150761] (-) TimerEvent: {}
+[3.251741] (-) TimerEvent: {}
+[3.352755] (-) TimerEvent: {}
+[3.453800] (-) TimerEvent: {}
+[3.555043] (-) TimerEvent: {}
+[3.655896] (-) TimerEvent: {}
+[3.757182] (-) TimerEvent: {}
+[3.858406] (-) TimerEvent: {}
+[3.959989] (-) TimerEvent: {}
+[4.060784] (-) TimerEvent: {}
+[4.162015] (-) TimerEvent: {}
+[4.263047] (-) TimerEvent: {}
+[4.365791] (-) TimerEvent: {}
+[4.466874] (-) TimerEvent: {}
+[4.568233] (-) TimerEvent: {}
+[4.609370] (turtlebot3_description) JobProgress: {'identifier': 'turtlebot3_description', 'progress': 'cmake'}
+[4.614433] (turtlebot3_description) JobProgress: {'identifier': 'turtlebot3_description', 'progress': 'build'}
+[4.623877] (turtlebot3_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_description', '--', '-j8', '-l8'], 'cwd': '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nicola'), ('LC_TIME', 'it_IT.UTF-8'), ('SSH_AGENT_PID', '1900'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/nicola'), ('OLDPWD', '/home/nicola/mobileRobotics/colcon_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('MANAGERPID', '1702'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10042'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nicola/mobileRobotics/colcon_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'nicola'), ('JOURNAL_STREAM', '8:48867'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nicola'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/nicola/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/matlab/bin:/matlab'), ('SESSION_MANAGER', 'local/nicola-HP-Laptop-15-bs1xx:@/tmp/.ICE-unix/1938,unix/nicola-HP-Laptop-15-bs1xx:/tmp/.ICE-unix/1938'), ('INVOCATION_ID', '7fc718e5ce814fa18a840288bcbb474a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '34'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_follow:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_NavSLAM:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_HighLevelControl'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:3a8df10b-fbcd-4a4b-8145-df4d7abf8c73'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_description'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer/lib/python3.8/site-packages:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_follow/lib/python3.8/site-packages:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_NavSLAM/lib/python3.8/site-packages:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_HighLevelControl/lib/python3.8/site-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description:/opt/ros/foxy:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_follow:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_NavSLAM:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_HighLevelControl')]), 'shell': False}
+[4.671434] (-) TimerEvent: {}
+[4.775757] (-) TimerEvent: {}
+[4.877400] (-) TimerEvent: {}
+[4.978680] (-) TimerEvent: {}
+[5.080027] (-) TimerEvent: {}
+[5.181846] (-) TimerEvent: {}
+[5.285872] (-) TimerEvent: {}
+[5.387257] (-) TimerEvent: {}
+[5.488810] (-) TimerEvent: {}
+[5.590294] (-) TimerEvent: {}
+[5.691519] (-) TimerEvent: {}
+[5.793217] (-) TimerEvent: {}
+[5.894912] (-) TimerEvent: {}
+[5.997573] (-) TimerEvent: {}
+[6.099200] (-) TimerEvent: {}
+[6.200810] (-) TimerEvent: {}
+[6.301877] (-) TimerEvent: {}
+[6.402839] (-) TimerEvent: {}
+[6.504003] (-) TimerEvent: {}
+[6.605036] (-) TimerEvent: {}
+[6.706616] (-) TimerEvent: {}
+[6.807561] (-) TimerEvent: {}
+[6.908985] (-) TimerEvent: {}
+[7.012521] (-) TimerEvent: {}
+[7.116713] (-) TimerEvent: {}
+[7.217481] (-) TimerEvent: {}
+[7.318678] (-) TimerEvent: {}
+[7.420657] (-) TimerEvent: {}
+[7.522035] (-) TimerEvent: {}
+[7.625271] (-) TimerEvent: {}
+[7.726779] (-) TimerEvent: {}
+[7.828449] (-) TimerEvent: {}
+[7.930101] (-) TimerEvent: {}
+[8.031494] (-) TimerEvent: {}
+[8.133256] (-) TimerEvent: {}
+[8.234723] (-) TimerEvent: {}
+[8.336483] (-) TimerEvent: {}
+[8.438691] (-) TimerEvent: {}
+[8.539861] (-) TimerEvent: {}
+[8.641497] (-) TimerEvent: {}
+[8.743297] (-) TimerEvent: {}
+[8.844567] (-) TimerEvent: {}
+[8.945668] (-) TimerEvent: {}
+[9.046726] (-) TimerEvent: {}
+[9.148158] (-) TimerEvent: {}
+[9.249374] (-) TimerEvent: {}
+[9.326313] (turtlebot3_description) CommandEnded: {'returncode': 0}
+[9.352816] (-) TimerEvent: {}
+[9.459935] (-) TimerEvent: {}
+[9.497466] (turtlebot3_description) JobProgress: {'identifier': 'turtlebot3_description', 'progress': 'install'}
+[9.560942] (-) TimerEvent: {}
+[9.598542] (turtlebot3_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_description'], 'cwd': '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nicola'), ('LC_TIME', 'it_IT.UTF-8'), ('SSH_AGENT_PID', '1900'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/nicola'), ('OLDPWD', '/home/nicola/mobileRobotics/colcon_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('MANAGERPID', '1702'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10042'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nicola/mobileRobotics/colcon_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'nicola'), ('JOURNAL_STREAM', '8:48867'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nicola'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/nicola/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/matlab/bin:/matlab'), ('SESSION_MANAGER', 'local/nicola-HP-Laptop-15-bs1xx:@/tmp/.ICE-unix/1938,unix/nicola-HP-Laptop-15-bs1xx:/tmp/.ICE-unix/1938'), ('INVOCATION_ID', '7fc718e5ce814fa18a840288bcbb474a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '34'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_follow:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_NavSLAM:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_HighLevelControl'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:3a8df10b-fbcd-4a4b-8145-df4d7abf8c73'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_description'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer/lib/python3.8/site-packages:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_follow/lib/python3.8/site-packages:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_NavSLAM/lib/python3.8/site-packages:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_HighLevelControl/lib/python3.8/site-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description:/opt/ros/foxy:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_follow:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_NavSLAM:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_HighLevelControl')]), 'shell': False}
+[9.661225] (-) TimerEvent: {}
+[9.701971] (turtlebot3_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.705240] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes\n'}
+[9.707252] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases\n'}
+[9.711888] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.stl\n'}
+[9.713934] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base_2.asset.meta\n'}
+[9.717399] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base_0.asset.meta\n'}
+[9.720447] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base_5.asset.meta\n'}
+[9.722204] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base_0.asset\n'}
+[9.724713] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_7.asset\n'}
+[9.728130] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base_4.asset\n'}
+[9.729355] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.prefab\n'}
+[9.729921] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base_4.asset.meta\n'}
+[9.730962] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_14.asset\n'}
+[9.732210] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.prefab\n'}
+[9.733130] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.stl.meta\n'}
+[9.733875] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_3.asset.meta\n'}
+[9.734610] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_8.asset\n'}
+[9.735321] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base_4.asset.meta\n'}
+[9.735991] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base_3.asset.meta\n'}
+[9.736999] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base_2.asset\n'}
+[9.738363] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base_3.asset\n'}
+[9.739962] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_4.asset.meta\n'}
+[9.742377] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_8.asset.meta\n'}
+[9.743998] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_9.asset\n'}
+[9.744688] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.prefab.meta\n'}
+[9.745302] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_2.asset.meta\n'}
+[9.745987] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base_0.asset\n'}
+[9.747100] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_6.asset.meta\n'}
+[9.747936] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.prefab.meta\n'}
+[9.749307] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_2.asset\n'}
+[9.750614] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_10.asset\n'}
+[9.751612] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base_1.asset.meta\n'}
+[9.755925] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.stl\n'}
+[9.758850] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_10.asset.meta\n'}
+[9.762098] (-) TimerEvent: {}
+[9.782948] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_4.asset\n'}
+[9.783927] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.stl\n'}
+[9.784842] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_1.asset.meta\n'}
+[9.785545] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_13.asset.meta\n'}
+[9.786223] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_0.asset\n'}
+[9.787033] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base_7.asset\n'}
+[9.787942] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_6.asset\n'}
+[9.791349] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base_7.asset.meta\n'}
+[9.798392] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_3.asset\n'}
+[9.801876] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_11.asset\n'}
+[9.805850] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_9.asset.meta\n'}
+[9.807674] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base_4.asset\n'}
+[9.808535] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_13.asset\n'}
+[9.810025] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_5.asset.meta\n'}
+[9.816745] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base_6.asset\n'}
+[9.818335] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base_3.asset\n'}
+[9.820420] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.stl.meta\n'}
+[9.821779] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base_3.asset.meta\n'}
+[9.824916] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_11.asset.meta\n'}
+[9.826647] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base_1.asset\n'}
+[9.827758] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_7.asset.meta\n'}
+[9.830941] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.prefab\n'}
+[9.831959] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.prefab.meta\n'}
+[9.846765] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_12.asset\n'}
+[9.847774] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base_1.asset\n'}
+[9.849355] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.stl.meta\n'}
+[9.851634] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base_0.asset.meta\n'}
+[9.853301] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_1.asset\n'}
+[9.853930] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_14.asset.meta\n'}
+[9.854492] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base_2.asset\n'}
+[9.855174] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base_6.asset.meta\n'}
+[9.855853] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_12.asset.meta\n'}
+[9.856812] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base_1.asset.meta\n'}
+[9.860017] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_5.asset\n'}
+[9.861315] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base_5.asset\n'}
+[9.862441] (-) TimerEvent: {}
+[9.879654] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base_2.asset.meta\n'}
+[9.881567] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base_0.asset.meta\n'}
+[9.883018] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors\n'}
+[9.884239] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds_0.asset\n'}
+[9.894502] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.jpg.meta\n'}
+[9.895496] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.jpg\n'}
+[9.897170] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds_0.asset.meta\n'}
+[9.898103] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.jpg.meta\n'}
+[9.911787] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.prefab.meta\n'}
+[9.913233] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.stl.meta\n'}
+[9.914329] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.dae.meta\n'}
+[9.915385] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.dae\n'}
+[9.916572] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.prefab\n'}
+[9.917247] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.dae.meta\n'}
+[9.917831] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.dae\n'}
+[9.918375] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.jpg\n'}
+[9.918970] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.stl\n'}
+[9.919621] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels\n'}
+[9.920738] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire_0.asset.meta\n'}
+[9.932040] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.stl\n'}
+[9.935385] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.prefab\n'}
+[9.937421] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.prefab.meta\n'}
+[9.938282] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire_0.asset.meta\n'}
+[9.938883] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire_0.asset\n'}
+[9.939458] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.prefab\n'}
+[9.940024] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.prefab.meta\n'}
+[9.941666] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire_0.asset\n'}
+[9.942937] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.stl\n'}
+[9.946948] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.stl.meta\n'}
+[9.950957] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.stl.meta\n'}
+[9.951817] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/urdf\n'}
+[9.953255] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger.urdf\n'}
+[9.955513] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/common_properties.urdf\n'}
+[9.962509] (-) TimerEvent: {}
+[9.972594] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description\n'}
+[9.979449] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description\n'}
+[9.988105] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh\n'}
+[9.992201] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.dsv\n'}
+[9.993997] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh\n'}
+[9.996741] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.dsv\n'}
+[10.003396] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash\n'}
+[10.005563] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh\n'}
+[10.006654] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh\n'}
+[10.007363] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.dsv\n'}
+[10.007945] (turtlebot3_description) StdoutLine: {'line': b'-- Installing: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/package.dsv\n'}
+[10.008617] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description\n'}
+[10.009279] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.010164] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake\n'}
+[10.011475] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake\n'}
+[10.012595] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/package.xml\n'}
+[10.013748] (turtlebot3_description) CommandEnded: {'returncode': 0}
+[10.063156] (-) TimerEvent: {}
+[10.168970] (-) TimerEvent: {}
+[10.271097] (-) TimerEvent: {}
+[10.278624] (turtlebot3_description) JobEnded: {'identifier': 'turtlebot3_description', 'rc': 0}
+[10.371359] (-) TimerEvent: {}
+[10.472893] (-) TimerEvent: {}
+[10.574288] (-) TimerEvent: {}
+[10.675280] (-) TimerEvent: {}
+[10.776215] (-) TimerEvent: {}
+[10.877223] (-) TimerEvent: {}
+[10.978216] (-) TimerEvent: {}
+[11.079507] (-) TimerEvent: {}
+[11.180479] (-) TimerEvent: {}
+[11.281503] (-) TimerEvent: {}
+[11.382398] (-) TimerEvent: {}
+[11.483905] (-) TimerEvent: {}
+[11.585464] (-) TimerEvent: {}
+[11.686898] (-) TimerEvent: {}
+[11.788706] (-) TimerEvent: {}
+[11.892603] (-) TimerEvent: {}
+[11.996510] (-) TimerEvent: {}
+[12.098431] (-) TimerEvent: {}
+[12.200755] (-) TimerEvent: {}
+[12.303268] (-) TimerEvent: {}
+[12.408858] (-) TimerEvent: {}
+[12.510803] (-) TimerEvent: {}
+[12.613105] (-) TimerEvent: {}
+[12.715233] (-) TimerEvent: {}
+[12.824590] (-) TimerEvent: {}
+[12.926070] (-) TimerEvent: {}
+[13.026045] (turtlebot3_follow) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/turtlebot3_follow', 'build', '--build-base', '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_follow/build', 'install', '--prefix', '/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_follow', '--record', '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_follow/install.log', '--single-version-externally-managed'], 'cwd': '/home/nicola/mobileRobotics/colcon_ws/src/turtlebot3_follow', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nicola', 'LC_TIME': 'it_IT.UTF-8', 'SSH_AGENT_PID': '1900', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/nicola', 'OLDPWD': '/home/nicola/mobileRobotics/colcon_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'it_IT.UTF-8', 'MANAGERPID': '1702', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '10042', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/nicola/mobileRobotics/colcon_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'nicola', 'JOURNAL_STREAM': '8:48867', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nicola', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/nicola/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/matlab/bin:/matlab', 'SESSION_MANAGER': 'local/nicola-HP-Laptop-15-bs1xx:@/tmp/.ICE-unix/1938,unix/nicola-HP-Laptop-15-bs1xx:/tmp/.ICE-unix/1938', 'INVOCATION_ID': '7fc718e5ce814fa18a840288bcbb474a', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'it_IT.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'it_IT.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '34', 'AMENT_PREFIX_PATH': '/opt/ros/foxy:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_follow:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_NavSLAM:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_HighLevelControl', 'SHELL': '/bin/bash', 'LC_NAME': 'it_IT.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:3a8df10b-fbcd-4a4b-8145-df4d7abf8c73', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'it_IT.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'it_IT.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_follow', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_follow/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer/lib/python3.8/site-packages:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_follow/lib/python3.8/site-packages:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_NavSLAM/lib/python3.8/site-packages:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_HighLevelControl/lib/python3.8/site-packages', 'LC_NUMERIC': 'it_IT.UTF-8', 'LC_PAPER': 'it_IT.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description'}, 'shell': False}
+[13.075678] (-) TimerEvent: {}
+[13.179549] (-) TimerEvent: {}
+[13.282106] (-) TimerEvent: {}
+[13.383253] (-) TimerEvent: {}
+[13.394486] (turtlebot3_HighLevelControl) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/turtlebot3_HighLevelControl', 'build', '--build-base', '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_HighLevelControl/build', 'install', '--prefix', '/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_HighLevelControl', '--record', '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_HighLevelControl/install.log', '--single-version-externally-managed'], 'cwd': '/home/nicola/mobileRobotics/colcon_ws/src/turtlebot3_HighLevelControl', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nicola', 'LC_TIME': 'it_IT.UTF-8', 'SSH_AGENT_PID': '1900', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/nicola', 'OLDPWD': '/home/nicola/mobileRobotics/colcon_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'it_IT.UTF-8', 'MANAGERPID': '1702', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '10042', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/nicola/mobileRobotics/colcon_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'nicola', 'JOURNAL_STREAM': '8:48867', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nicola', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/nicola/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/matlab/bin:/matlab', 'SESSION_MANAGER': 'local/nicola-HP-Laptop-15-bs1xx:@/tmp/.ICE-unix/1938,unix/nicola-HP-Laptop-15-bs1xx:/tmp/.ICE-unix/1938', 'INVOCATION_ID': '7fc718e5ce814fa18a840288bcbb474a', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'it_IT.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'it_IT.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '34', 'AMENT_PREFIX_PATH': '/opt/ros/foxy:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_follow:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_NavSLAM:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_HighLevelControl', 'SHELL': '/bin/bash', 'LC_NAME': 'it_IT.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:3a8df10b-fbcd-4a4b-8145-df4d7abf8c73', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'it_IT.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'it_IT.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_HighLevelControl', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_HighLevelControl/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer/lib/python3.8/site-packages:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_follow/lib/python3.8/site-packages:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_NavSLAM/lib/python3.8/site-packages:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_HighLevelControl/lib/python3.8/site-packages', 'LC_NUMERIC': 'it_IT.UTF-8', 'LC_PAPER': 'it_IT.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description'}, 'shell': False}
+[13.483926] (-) TimerEvent: {}
+[13.585712] (-) TimerEvent: {}
+[13.687037] (-) TimerEvent: {}
+[13.788762] (-) TimerEvent: {}
+[13.891194] (-) TimerEvent: {}
+[13.993987] (-) TimerEvent: {}
+[14.032579] (turtlebot3_NavSLAM) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/turtlebot3_NavSLAM', 'build', '--build-base', '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_NavSLAM/build', 'install', '--prefix', '/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_NavSLAM', '--record', '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_NavSLAM/install.log', '--single-version-externally-managed'], 'cwd': '/home/nicola/mobileRobotics/colcon_ws/src/turtlebot3_NavSLAM', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nicola', 'LC_TIME': 'it_IT.UTF-8', 'SSH_AGENT_PID': '1900', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/nicola', 'OLDPWD': '/home/nicola/mobileRobotics/colcon_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'it_IT.UTF-8', 'MANAGERPID': '1702', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '10042', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/nicola/mobileRobotics/colcon_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'nicola', 'JOURNAL_STREAM': '8:48867', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nicola', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/nicola/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/matlab/bin:/matlab', 'SESSION_MANAGER': 'local/nicola-HP-Laptop-15-bs1xx:@/tmp/.ICE-unix/1938,unix/nicola-HP-Laptop-15-bs1xx:/tmp/.ICE-unix/1938', 'INVOCATION_ID': '7fc718e5ce814fa18a840288bcbb474a', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'it_IT.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'it_IT.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '34', 'AMENT_PREFIX_PATH': '/opt/ros/foxy:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_follow:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_NavSLAM:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_HighLevelControl', 'SHELL': '/bin/bash', 'LC_NAME': 'it_IT.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:3a8df10b-fbcd-4a4b-8145-df4d7abf8c73', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'it_IT.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'it_IT.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_NavSLAM', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_NavSLAM/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer/lib/python3.8/site-packages:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_follow/lib/python3.8/site-packages:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_NavSLAM/lib/python3.8/site-packages:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_HighLevelControl/lib/python3.8/site-packages', 'LC_NUMERIC': 'it_IT.UTF-8', 'LC_PAPER': 'it_IT.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description'}, 'shell': False}
+[14.083983] (turtlebot3_visualizer) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/turtlebot3_visualizer', 'build', '--build-base', '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_visualizer/build', 'install', '--prefix', '/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer', '--record', '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_visualizer/install.log', '--single-version-externally-managed'], 'cwd': '/home/nicola/mobileRobotics/colcon_ws/src/turtlebot3_visualizer', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nicola', 'LC_TIME': 'it_IT.UTF-8', 'SSH_AGENT_PID': '1900', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/nicola', 'OLDPWD': '/home/nicola/mobileRobotics/colcon_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'it_IT.UTF-8', 'MANAGERPID': '1702', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '10042', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/nicola/mobileRobotics/colcon_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'nicola', 'JOURNAL_STREAM': '8:48867', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nicola', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/nicola/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/matlab/bin:/matlab', 'SESSION_MANAGER': 'local/nicola-HP-Laptop-15-bs1xx:@/tmp/.ICE-unix/1938,unix/nicola-HP-Laptop-15-bs1xx:/tmp/.ICE-unix/1938', 'INVOCATION_ID': '7fc718e5ce814fa18a840288bcbb474a', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'it_IT.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'it_IT.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '34', 'AMENT_PREFIX_PATH': '/opt/ros/foxy:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_follow:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_NavSLAM:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_HighLevelControl', 'SHELL': '/bin/bash', 'LC_NAME': 'it_IT.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:3a8df10b-fbcd-4a4b-8145-df4d7abf8c73', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'it_IT.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'it_IT.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_visualizer', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer/lib/python3.8/site-packages:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_follow/lib/python3.8/site-packages:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_NavSLAM/lib/python3.8/site-packages:/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_HighLevelControl/lib/python3.8/site-packages', 'LC_NUMERIC': 'it_IT.UTF-8', 'LC_PAPER': 'it_IT.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_description'}, 'shell': False}
+[14.102542] (-) TimerEvent: {}
+[14.212873] (-) TimerEvent: {}
+[14.314039] (-) TimerEvent: {}
+[14.415606] (-) TimerEvent: {}
+[14.517130] (-) TimerEvent: {}
+[14.618738] (-) TimerEvent: {}
+[14.721121] (-) TimerEvent: {}
+[14.822667] (-) TimerEvent: {}
+[14.924681] (-) TimerEvent: {}
+[14.989214] (turtlebot3_follow) StdoutLine: {'line': b'running egg_info\n'}
+[14.997160] (turtlebot3_follow) StdoutLine: {'line': b'writing ../../build/turtlebot3_follow/turtlebot3_follow.egg-info/PKG-INFO\n'}
+[14.998308] (turtlebot3_follow) StdoutLine: {'line': b'writing dependency_links to ../../build/turtlebot3_follow/turtlebot3_follow.egg-info/dependency_links.txt\n'}
+[14.999295] (turtlebot3_follow) StdoutLine: {'line': b'writing entry points to ../../build/turtlebot3_follow/turtlebot3_follow.egg-info/entry_points.txt\n'}
+[15.000106] (turtlebot3_follow) StdoutLine: {'line': b'writing requirements to ../../build/turtlebot3_follow/turtlebot3_follow.egg-info/requires.txt\n'}
+[15.000925] (turtlebot3_follow) StdoutLine: {'line': b'writing top-level names to ../../build/turtlebot3_follow/turtlebot3_follow.egg-info/top_level.txt\n'}
+[15.024982] (-) TimerEvent: {}
+[15.126206] (-) TimerEvent: {}
+[15.227223] (-) TimerEvent: {}
+[15.328694] (-) TimerEvent: {}
+[15.348640] (turtlebot3_HighLevelControl) StdoutLine: {'line': b'running egg_info\n'}
+[15.354887] (turtlebot3_HighLevelControl) StdoutLine: {'line': b'writing ../../build/turtlebot3_HighLevelControl/turtlebot3_HighLevelControl.egg-info/PKG-INFO\n'}
+[15.355830] (turtlebot3_HighLevelControl) StdoutLine: {'line': b'writing dependency_links to ../../build/turtlebot3_HighLevelControl/turtlebot3_HighLevelControl.egg-info/dependency_links.txt\n'}
+[15.356974] (turtlebot3_follow) StdoutLine: {'line': b"reading manifest file '../../build/turtlebot3_follow/turtlebot3_follow.egg-info/SOURCES.txt'\n"}
+[15.357848] (turtlebot3_HighLevelControl) StdoutLine: {'line': b'writing entry points to ../../build/turtlebot3_HighLevelControl/turtlebot3_HighLevelControl.egg-info/entry_points.txt\n'}
+[15.360144] (turtlebot3_HighLevelControl) StdoutLine: {'line': b'writing requirements to ../../build/turtlebot3_HighLevelControl/turtlebot3_HighLevelControl.egg-info/requires.txt\n'}
+[15.360884] (turtlebot3_HighLevelControl) StdoutLine: {'line': b'writing top-level names to ../../build/turtlebot3_HighLevelControl/turtlebot3_HighLevelControl.egg-info/top_level.txt\n'}
+[15.365082] (turtlebot3_follow) StdoutLine: {'line': b"writing manifest file '../../build/turtlebot3_follow/turtlebot3_follow.egg-info/SOURCES.txt'\n"}
+[15.366537] (turtlebot3_follow) StdoutLine: {'line': b'running build\n'}
+[15.367411] (turtlebot3_follow) StdoutLine: {'line': b'running build_py\n'}
+[15.368800] (turtlebot3_follow) StdoutLine: {'line': b'running install\n'}
+[15.375288] (turtlebot3_follow) StdoutLine: {'line': b'running install_lib\n'}
+[15.385454] (turtlebot3_follow) StdoutLine: {'line': b'running install_data\n'}
+[15.390507] (turtlebot3_follow) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.404580] (turtlebot3_follow) StdoutLine: {'line': b"removing '/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_follow/lib/python3.8/site-packages/turtlebot3_follow-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[15.406799] (turtlebot3_follow) StdoutLine: {'line': b'Copying ../../build/turtlebot3_follow/turtlebot3_follow.egg-info to /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_follow/lib/python3.8/site-packages/turtlebot3_follow-0.0.0-py3.8.egg-info\n'}
+[15.413318] (turtlebot3_follow) StdoutLine: {'line': b'running install_scripts\n'}
+[15.429151] (-) TimerEvent: {}
+[15.531272] (-) TimerEvent: {}
+[15.571173] (turtlebot3_follow) StdoutLine: {'line': b'Installing turtlebot3_follow script to /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_follow/lib/turtlebot3_follow\n'}
+[15.573563] (turtlebot3_follow) StdoutLine: {'line': b"writing list of installed files to '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_follow/install.log'\n"}
+[15.631563] (-) TimerEvent: {}
+[15.716945] (turtlebot3_HighLevelControl) StdoutLine: {'line': b"reading manifest file '../../build/turtlebot3_HighLevelControl/turtlebot3_HighLevelControl.egg-info/SOURCES.txt'\n"}
+[15.726866] (turtlebot3_HighLevelControl) StdoutLine: {'line': b"writing manifest file '../../build/turtlebot3_HighLevelControl/turtlebot3_HighLevelControl.egg-info/SOURCES.txt'\n"}
+[15.729401] (turtlebot3_HighLevelControl) StdoutLine: {'line': b'running build\n'}
+[15.733317] (-) TimerEvent: {}
+[15.748064] (turtlebot3_HighLevelControl) StdoutLine: {'line': b'running build_py\n'}
+[15.750475] (turtlebot3_HighLevelControl) StdoutLine: {'line': b'copying turtlebot3_HighLevelControl/highLevelControl.py -> /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_HighLevelControl/build/lib/turtlebot3_HighLevelControl\n'}
+[15.757974] (turtlebot3_HighLevelControl) StdoutLine: {'line': b'running install\n'}
+[15.759498] (turtlebot3_follow) CommandEnded: {'returncode': 0}
+[15.762212] (turtlebot3_HighLevelControl) StdoutLine: {'line': b'running install_lib\n'}
+[15.762905] (turtlebot3_HighLevelControl) StdoutLine: {'line': b'copying /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_HighLevelControl/build/lib/turtlebot3_HighLevelControl/highLevelControl.py -> /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_HighLevelControl/lib/python3.8/site-packages/turtlebot3_HighLevelControl\n'}
+[15.763541] (turtlebot3_HighLevelControl) StdoutLine: {'line': b'byte-compiling /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_HighLevelControl/lib/python3.8/site-packages/turtlebot3_HighLevelControl/highLevelControl.py to highLevelControl.cpython-38.pyc\n'}
+[15.763956] (turtlebot3_HighLevelControl) StdoutLine: {'line': b'running install_data\n'}
+[15.764788] (turtlebot3_HighLevelControl) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.777082] (turtlebot3_HighLevelControl) StdoutLine: {'line': b"removing '/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_HighLevelControl/lib/python3.8/site-packages/turtlebot3_HighLevelControl-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[15.782903] (turtlebot3_HighLevelControl) StdoutLine: {'line': b'Copying ../../build/turtlebot3_HighLevelControl/turtlebot3_HighLevelControl.egg-info to /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_HighLevelControl/lib/python3.8/site-packages/turtlebot3_HighLevelControl-0.0.0-py3.8.egg-info\n'}
+[15.784572] (turtlebot3_HighLevelControl) StdoutLine: {'line': b'running install_scripts\n'}
+[15.819641] (turtlebot3_follow) JobEnded: {'identifier': 'turtlebot3_follow', 'rc': 0}
+[15.827793] (turtlebot3_visualizer) StdoutLine: {'line': b'running egg_info\n'}
+[15.834018] (turtlebot3_visualizer) StdoutLine: {'line': b'writing ../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info/PKG-INFO\n'}
+[15.835697] (-) TimerEvent: {}
+[15.838142] (turtlebot3_visualizer) StdoutLine: {'line': b'writing dependency_links to ../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info/dependency_links.txt\n'}
+[15.839216] (turtlebot3_visualizer) StdoutLine: {'line': b'writing entry points to ../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info/entry_points.txt\n'}
+[15.841755] (turtlebot3_visualizer) StdoutLine: {'line': b'writing requirements to ../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info/requires.txt\n'}
+[15.842829] (turtlebot3_visualizer) StdoutLine: {'line': b'writing top-level names to ../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info/top_level.txt\n'}
+[15.917033] (turtlebot3_HighLevelControl) StdoutLine: {'line': b'Installing turtlebot3_HighLevelControl script to /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_HighLevelControl/lib/turtlebot3_HighLevelControl\n'}
+[15.919578] (turtlebot3_HighLevelControl) StdoutLine: {'line': b"writing list of installed files to '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_HighLevelControl/install.log'\n"}
+[15.936246] (-) TimerEvent: {}
+[16.037721] (-) TimerEvent: {}
+[16.056507] (turtlebot3_HighLevelControl) CommandEnded: {'returncode': 0}
+[16.106387] (turtlebot3_visualizer) StdoutLine: {'line': b"reading manifest file '../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info/SOURCES.txt'\n"}
+[16.113034] (turtlebot3_visualizer) StdoutLine: {'line': b"writing manifest file '../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info/SOURCES.txt'\n"}
+[16.114662] (turtlebot3_visualizer) StdoutLine: {'line': b'running build\n'}
+[16.115192] (turtlebot3_visualizer) StdoutLine: {'line': b'running build_py\n'}
+[16.116609] (turtlebot3_visualizer) StdoutLine: {'line': b'running install\n'}
+[16.122540] (turtlebot3_visualizer) StdoutLine: {'line': b'running install_lib\n'}
+[16.123093] (turtlebot3_HighLevelControl) JobEnded: {'identifier': 'turtlebot3_HighLevelControl', 'rc': 0}
+[16.130408] (turtlebot3_visualizer) StdoutLine: {'line': b'running install_data\n'}
+[16.132894] (turtlebot3_visualizer) StdoutLine: {'line': b'running install_egg_info\n'}
+[16.137945] (-) TimerEvent: {}
+[16.141745] (turtlebot3_visualizer) StdoutLine: {'line': b"removing '/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer/lib/python3.8/site-packages/turtlebot3_visualizer-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[16.143011] (turtlebot3_visualizer) StdoutLine: {'line': b'Copying ../../build/turtlebot3_visualizer/turtlebot3_visualizer.egg-info to /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_visualizer/lib/python3.8/site-packages/turtlebot3_visualizer-0.0.0-py3.8.egg-info\n'}
+[16.149004] (turtlebot3_visualizer) StdoutLine: {'line': b'running install_scripts\n'}
+[16.238283] (-) TimerEvent: {}
+[16.271043] (turtlebot3_visualizer) StdoutLine: {'line': b"writing list of installed files to '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_visualizer/install.log'\n"}
+[16.326439] (turtlebot3_NavSLAM) StdoutLine: {'line': b'running egg_info\n'}
+[16.331030] (turtlebot3_NavSLAM) StdoutLine: {'line': b'writing ../../build/turtlebot3_NavSLAM/turtlebot3_NavSLAM.egg-info/PKG-INFO\n'}
+[16.333037] (turtlebot3_NavSLAM) StdoutLine: {'line': b'writing dependency_links to ../../build/turtlebot3_NavSLAM/turtlebot3_NavSLAM.egg-info/dependency_links.txt\n'}
+[16.335248] (turtlebot3_NavSLAM) StdoutLine: {'line': b'writing entry points to ../../build/turtlebot3_NavSLAM/turtlebot3_NavSLAM.egg-info/entry_points.txt\n'}
+[16.336945] (turtlebot3_NavSLAM) StdoutLine: {'line': b'writing requirements to ../../build/turtlebot3_NavSLAM/turtlebot3_NavSLAM.egg-info/requires.txt\n'}
+[16.338260] (turtlebot3_NavSLAM) StdoutLine: {'line': b'writing top-level names to ../../build/turtlebot3_NavSLAM/turtlebot3_NavSLAM.egg-info/top_level.txt\n'}
+[16.338772] (-) TimerEvent: {}
+[16.400445] (turtlebot3_visualizer) CommandEnded: {'returncode': 0}
+[16.439234] (-) TimerEvent: {}
+[16.453293] (turtlebot3_visualizer) JobEnded: {'identifier': 'turtlebot3_visualizer', 'rc': 0}
+[16.539700] (-) TimerEvent: {}
+[16.613563] (turtlebot3_NavSLAM) StdoutLine: {'line': b"reading manifest file '../../build/turtlebot3_NavSLAM/turtlebot3_NavSLAM.egg-info/SOURCES.txt'\n"}
+[16.620724] (turtlebot3_NavSLAM) StdoutLine: {'line': b"writing manifest file '../../build/turtlebot3_NavSLAM/turtlebot3_NavSLAM.egg-info/SOURCES.txt'\n"}
+[16.621876] (turtlebot3_NavSLAM) StdoutLine: {'line': b'running build\n'}
+[16.622773] (turtlebot3_NavSLAM) StdoutLine: {'line': b'running build_py\n'}
+[16.624721] (turtlebot3_NavSLAM) StdoutLine: {'line': b'running install\n'}
+[16.628925] (turtlebot3_NavSLAM) StdoutLine: {'line': b'running install_lib\n'}
+[16.638222] (turtlebot3_NavSLAM) StdoutLine: {'line': b'running install_data\n'}
+[16.639917] (-) TimerEvent: {}
+[16.642447] (turtlebot3_NavSLAM) StdoutLine: {'line': b'running install_egg_info\n'}
+[16.655062] (turtlebot3_NavSLAM) StdoutLine: {'line': b"removing '/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_NavSLAM/lib/python3.8/site-packages/turtlebot3_NavSLAM-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[16.658368] (turtlebot3_NavSLAM) StdoutLine: {'line': b'Copying ../../build/turtlebot3_NavSLAM/turtlebot3_NavSLAM.egg-info to /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_NavSLAM/lib/python3.8/site-packages/turtlebot3_NavSLAM-0.0.0-py3.8.egg-info\n'}
+[16.663973] (turtlebot3_NavSLAM) StdoutLine: {'line': b'running install_scripts\n'}
+[16.740072] (-) TimerEvent: {}
+[16.793039] (turtlebot3_NavSLAM) StdoutLine: {'line': b"writing list of installed files to '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_NavSLAM/install.log'\n"}
+[16.840486] (-) TimerEvent: {}
+[16.930770] (turtlebot3_NavSLAM) CommandEnded: {'returncode': 0}
+[16.941696] (-) TimerEvent: {}
+[16.987082] (turtlebot3_NavSLAM) JobEnded: {'identifier': 'turtlebot3_NavSLAM', 'rc': 0}
+[16.993100] (-) EventReactorShutdown: {}

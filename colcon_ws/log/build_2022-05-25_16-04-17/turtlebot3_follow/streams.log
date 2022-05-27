@@ -1,0 +1,21 @@
+[5.567s] Invoking command in '/home/nicola/mobileRobotics/colcon_ws/src/turtlebot3_follow': PYTHONPATH=/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_follow/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot3_follow build --build-base /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_follow/build install --prefix /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_follow --record /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_follow/install.log --single-version-externally-managed
+[6.963s] running egg_info
+[6.968s] writing ../../build/turtlebot3_follow/turtlebot3_follow.egg-info/PKG-INFO
+[6.974s] writing dependency_links to ../../build/turtlebot3_follow/turtlebot3_follow.egg-info/dependency_links.txt
+[6.975s] writing entry points to ../../build/turtlebot3_follow/turtlebot3_follow.egg-info/entry_points.txt
+[6.975s] writing requirements to ../../build/turtlebot3_follow/turtlebot3_follow.egg-info/requires.txt
+[6.976s] writing top-level names to ../../build/turtlebot3_follow/turtlebot3_follow.egg-info/top_level.txt
+[7.162s] reading manifest file '../../build/turtlebot3_follow/turtlebot3_follow.egg-info/SOURCES.txt'
+[7.165s] writing manifest file '../../build/turtlebot3_follow/turtlebot3_follow.egg-info/SOURCES.txt'
+[7.167s] running build
+[7.168s] running build_py
+[7.169s] running install
+[7.181s] running install_lib
+[7.182s] running install_data
+[7.183s] running install_egg_info
+[7.193s] removing '/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_follow/lib/python3.8/site-packages/turtlebot3_follow-0.0.0-py3.8.egg-info' (and everything under it)
+[7.194s] Copying ../../build/turtlebot3_follow/turtlebot3_follow.egg-info to /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_follow/lib/python3.8/site-packages/turtlebot3_follow-0.0.0-py3.8.egg-info
+[7.198s] running install_scripts
+[7.291s] Installing turtlebot3_follow script to /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_follow/lib/turtlebot3_follow
+[7.293s] writing list of installed files to '/home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_follow/install.log'
+[7.454s] Invoked command in '/home/nicola/mobileRobotics/colcon_ws/src/turtlebot3_follow' returned '0': PYTHONPATH=/home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_follow/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot3_follow build --build-base /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_follow/build install --prefix /home/nicola/mobileRobotics/colcon_ws/install/turtlebot3_follow --record /home/nicola/mobileRobotics/colcon_ws/build/turtlebot3_follow/install.log --single-version-externally-managed
