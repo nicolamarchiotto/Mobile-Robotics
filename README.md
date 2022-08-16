@@ -1,6 +1,6 @@
 # Mobile-Robotics
 
-Master Degree in Computer Engineering for Robotics and Smart Industry - A.Y. 2021/2022
+Master Degree in Computer Engineering for Robotics and Smart Industry - University of Verona - A.Y. 2021/2022
 
 ROS code for the Mobile Robotics course
 
